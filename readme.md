@@ -70,3 +70,23 @@
 
 # Database
 - install sequelize and mysql2
+
+# Authentication and Authorization
+# Activities 
+- User database 
+ - id
+ - username 
+ - password
+ - firstname
+ - lastname
+
+# Functions
+- Login
+ - User validation
+ - Provide token
+  - token {userid, username}
+- Signup
+ - username validation
+- User authentication (403)(middleware)
+ - Check the token if valid
+ - Token Expiration 
